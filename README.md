@@ -16,7 +16,7 @@ Also make sure to clone,setup and run the WebAPI using below link in your local 
 
 - https://github.com/mahekmerchant/TODOWebAPI
 
-#### Installation
+### Installation
 
 1. Clone the repository to your local machine.
 
@@ -27,9 +27,9 @@ Also make sure to clone,setup and run the WebAPI using below link in your local 
 
 3. Install project dependencies using npm.
 
-   -npm install
+  -npm install
    
-##### Running the application
+### Running the application
 Once you have installed the dependencies, you can run the Angular application using the Angular CLI.
 
   - ng serve
@@ -38,7 +38,7 @@ The application will be served at http://localhost:4200/. Open this URL in your 
 
    ![screenshot](Todolistapp.png)
    
-###### Running Unit Tests
+### Running Unit Tests
 You can run the unit tests for the application using the following command:
 
   - ng test
