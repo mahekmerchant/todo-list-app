@@ -1,0 +1,29 @@
+<div class="container mt-4">
+  <div class="todo-container">
+    <h2 class="mb-4">TODO List</h2>
+
+    <div class="mb-3">
+      <label for="userIdInput" class="form-label">User ID:</label>
+      <div class="d-flex">
+        <input type="text" id="userIdInput" [(ngModel)]="formData.UserId" class="form-control me-2" placeholder="Enter User ID">
+        <button class="btn btn-primary btn-sm" (click)="loadTodoItems()">Load TODO List</button>
+      </div>
+    </div>
+
+    <div class="mb-3" *ngIf="formData.UserId" class="d-flex justify-content-between">
+      <input type="text" placeholder="Add new item" [(ngModel)]="formData.Text" (keyup.enter)="addItem()" class="form-control me-2">
+      <button class="btn btn-success btn-sm" (click)="addItem()" [disabled]="!formData.Text.trim()">Add Item</button>
+    </div>
+
+    <div *ngIf="!formData.UserId">
+      <p class="text-danger">Please enter a user ID to see or add new items.</p>
+    </div>
+
+    <ul class="list-group">
+      <li class="list-group-item d-flex justify-content-between" *ngFor="let item of todoItem">
+        <span>{{ item.text }}</span>
+        <button class="btn btn-danger ms-2 btn-sm" (click)="deleteItem(item.text)">Delete</button>
+      </li>
+    </ul>
+  </div>
+</div>
