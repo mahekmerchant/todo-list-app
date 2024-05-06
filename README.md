@@ -28,12 +28,12 @@ Also make sure to clone,setup and run the WebAPI using below link in your local 
 
 3. Install project dependencies using npm.
 
-   -npm install
+   - npm install
    
 ### Running the application
 Once you have installed the dependencies, you can run the Angular application using the Angular CLI.
 
-  - ng serve
+   - ng serve
     
 The application will be served at http://localhost:4200/. Open this URL in your web browser to view the application.
 
@@ -42,6 +42,6 @@ The application will be served at http://localhost:4200/. Open this URL in your 
 ### Running Unit Tests
 You can run the unit tests for the application using the following command:
 
-  - ng test
+   - ng test
 
 This will run all the unit tests in the project and provide the test results in the terminal.
