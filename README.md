@@ -14,21 +14,21 @@ Make sure you have the following software installed on your machine:
 
 Also make sure to clone,setup and run the WebAPI using below link in your local machine.
 
-- https://github.com/mahekmerchant/TODOWebAPI
+      https://github.com/mahekmerchant/TODOWebAPI
 
 ### Installation
 
 1. Clone the repository to your local machine.
 
-   - https://github.com/mahekmerchant/todo-list-app
+      https://github.com/mahekmerchant/todo-list-app
     
 2. Navigate to the project directory.
 
-   - cd todo-list-app
+      cd todo-list-app
 
 3. Install project dependencies using npm.
 
-   - npm install
+      npm install
    
 ### Running the application
 Once you have installed the dependencies, you can run the Angular application using the Angular CLI.
